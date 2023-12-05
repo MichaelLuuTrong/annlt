@@ -27,6 +27,7 @@ body {
 }
 
 #nav-section {
+    border-bottom: 1px solid lightgray;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,29 +42,31 @@ body {
 }
 
 
-/*MEDIA QUERIES*/
-/*DESKTOP*/
+/* MEDIA QUERIES */
+/* DESKTOP */
 #nav-section {
-    border-bottom: 1px solid lightgray;
-    height: 1em;
+    height: 18px;
     padding-top: 8px;
     padding-bottom: 8px;
     background-color: blue;
-
 }
 
 #nav-section a {
-    font-size: 1em;
+    font-size: 13px;
     background-color: green;
 }
 
 #nav-list {
-    min-width: 500px;
+    width: 700px;
     padding: 0;
     background-color: red;
 }
 
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 1024px) {}
 
+/* PHONE */
+@media screen and (max-width: 767px) {}
 
 /* HEADER */
 header {
