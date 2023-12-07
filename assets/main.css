@@ -136,11 +136,11 @@ header h1 {
 
 #links-section a {
     text-decoration: none;
-    color: black;
+    color: #a2424d;
     transition: color 0.5s ease;
     display: flex;
 }
 
 #links-section a:hover {
-    color: #a2424d;
+    color: black;
 }
