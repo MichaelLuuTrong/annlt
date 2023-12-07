@@ -7,6 +7,11 @@ body {
     margin: 0;
 }
 
+h2 {
+    font-size: 18;
+    font-weight: 300;
+}
+
 /* NAVIGATION */
 #nav-section ul {
     list-style-type: none;
@@ -102,4 +107,40 @@ header {
 header h1 {
     font-size: 30px;
     font-weight: 300
+}
+
+/* ESSAYS */
+#essays-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#indiv-essay {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+/* LINKS */
+#links-section {
+    display: flex;
+    width: 100%;
+    justify-content: center
+}
+
+#links-section ul {
+    list-style-type: none;
+    width: 500px
+}
+
+#links-section a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s ease;
+    display: flex;
+}
+
+#links-section a:hover {
+    color: #a2424d;
 }
